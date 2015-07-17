@@ -6,7 +6,6 @@ before_script:
 script: mvn clean install
 
 jdk:
-  - oraclejdk8
   - oraclejdk7
 
 
