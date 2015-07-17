@@ -1,8 +1,5 @@
 language: java
 
-before_script:
-  - cp -r lib\corpus $HOME/.m2/repository
-
 script: mvn clean install
 
 jdk:
